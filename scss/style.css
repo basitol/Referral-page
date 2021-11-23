@@ -1,1 +1,44 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@media only screen and (min-width: 640px) {
+  body {
+    display: none;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #f9f9ff;
+}
+
+header {
+  height: 132px;
+  width: 100vw;
+  padding: 19px 15px;
+  border-radius: 0 0 15px 15px;
+  background: #5f22cb;
+  font-family: "DM Sans", sans-serif;
+}
+
+header nav {
+  margin-left: 6px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+header nav a {
+  margin-right: 20px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
