@@ -15,25 +15,72 @@ body {
   width: 100vw;
   height: 100vh;
   background: #f9f9ff;
+  background-image: url(../img/bg-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Outfit", sans-serif;
 }
 
 header {
-  height: 132px;
   width: 100vw;
   padding: 19px 15px;
-  border-radius: 0 0 15px 15px;
-  background: #5f22cb;
-  font-family: "DM Sans", sans-serif;
 }
 
 header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-left: 6px;
   color: #ffffff;
   font-size: 18px;
 }
 
 header nav a {
+  margin-top: 5px;
   margin-right: 20px;
+}
+
+header nav h4 {
+  margin-left: 20%;
+  font-size: 26px;
+}
+
+.container {
+  height: 764px;
+  margin: 37px 7% 63px;
+  padding: 32px 20px 0;
+  border-radius: 15px;
+  background: #f9f9ff;
+}
+
+.container .img-con img {
+  margin: 0 20%;
+}
+
+.container .texts {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.container .texts h1 {
+  font-size: 20px;
+  color: #3a2a7a;
+}
+
+.container .texts p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: rgba(26, 12, 47, 0.7);
+}
+
+.container .texts .earned {
+  margin-bottom: 35px;
+}
+
+.container .texts .earned h1 {
+  color: #01ae13;
+  font-size: 39px;
+  font-family: "DM Sans", sans-serif;
 }
 
 .flex {
