@@ -59,7 +59,7 @@ header {
   }
 
   .texts {
-    padding-top: 30px;
+    padding: 30px 2.5%;
     text-align: center;
     h1 {
       font-size: 20px;
@@ -78,6 +78,59 @@ header {
         color: #01ae13;
         font-size: 39px;
         font-family: "DM Sans", sans-serif;
+      }
+    }
+
+    .line {
+      width: 95%;
+      height: 1px;
+      // margin: 0 2.5%;
+      background: #e3ecf6;
+    }
+
+    .actions {
+      margin-top: 23px;
+      display: flex;
+
+      .box {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 9px;
+
+        p {
+          margin-top: 0;
+          font-size: 12px;
+          line-height: 20px;
+          text-align: left;
+        }
+
+        > span {
+          // margin-top: 15px;
+          font-size: 30px;
+          color: #000;
+          // text-align: right;
+        }
+      }
+
+      .b-1 {
+        width: 26%;
+      }
+
+      .b-2 {
+        width: 36%;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      .b-3 {
+        width: 40%;
+        padding-left: 10px;
+      }
+
+      .s-lines {
+        height: 46px;
+        width: 1px;
+        background: #e3ecf6;
       }
     }
   }

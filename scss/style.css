@@ -58,7 +58,7 @@ header nav h4 {
 }
 
 .container .texts {
-  padding-top: 30px;
+  padding: 30px 2.5%;
   text-align: center;
 }
 
@@ -81,6 +81,62 @@ header nav h4 {
   color: #01ae13;
   font-size: 39px;
   font-family: "DM Sans", sans-serif;
+}
+
+.container .texts .line {
+  width: 95%;
+  height: 1px;
+  background: #e3ecf6;
+}
+
+.container .texts .actions {
+  margin-top: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .texts .actions .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 9px;
+}
+
+.container .texts .actions .box p {
+  margin-top: 0;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.container .texts .actions .box > span {
+  font-size: 30px;
+  color: #000;
+}
+
+.container .texts .actions .b-1 {
+  width: 26%;
+}
+
+.container .texts .actions .b-2 {
+  width: 36%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container .texts .actions .b-3 {
+  width: 40%;
+  padding-left: 10px;
+}
+
+.container .texts .actions .s-lines {
+  height: 46px;
+  width: 1px;
+  background: #e3ecf6;
 }
 
 .flex {
