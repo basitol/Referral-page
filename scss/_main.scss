@@ -12,7 +12,7 @@
 
 body {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   background: #f9f9ff;
   background-image: url(../img/bg-img.png);
   background-repeat: no-repeat;
@@ -21,10 +21,8 @@ body {
 }
 
 header {
-  //   height: 132px;
   width: 100vw;
   padding: 19px 15px;
-  // justify-content: space;
 
   nav {
     display: flex;
@@ -45,7 +43,7 @@ header {
 }
 
 .container {
-  height: 764px;
+  // height: 764px;
   margin: 37px 7% 63px;
   padding: 32px 20px 0;
   border-radius: 15px;
@@ -134,6 +132,48 @@ header {
       }
     }
   }
+}
+
+.ussd {
+  margin-top: 35px;
+  border-radius: 5px;
+  width: 100%;
+  height: 85px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  background: transparent;
+  color: #5c5c5c;
+
+  .txt {
+    color: #1a0c2f;
+  }
+}
+.ussd svg {
+  fill: #5c5c5c;
+}
+.ussd:focus {
+  border: none;
+  background: #c53b9e13;
+  color: rgba(197, 59, 159, 1);
+  outline: none;
+}
+.ussd:focus svg {
+  fill: rgba(197, 59, 159, 1);
+}
+
+.share {
+  margin-top: 32px;
+  width: 100%;
+  height: 60px;
+  background: #5f22cb;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
 }
 
 .flex {
